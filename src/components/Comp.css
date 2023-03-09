@@ -1,0 +1,85 @@
+.ClientMessage {
+  color: #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 70vw;
+  padding: 1rem 3rem;
+  word-wrap: break-word;
+  line-height: 1.4;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #8a8a8a;
+  clip-path: polygon(7px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 100%, 7px 85%);
+}
+
+.client-text {
+  color: #ffffff;
+}
+
+.ServerMessage {
+  color: #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 70vw;
+  line-height: 1.4;
+  padding: 1rem 1.5rem;
+  padding-right: 2rem;
+  word-wrap: break-word;
+  align-self: flex-end;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: #246a73;
+  clip-path: polygon(0% 0%, 95% 0%, 95% 95%, 100% 100%, 0% 100%);
+}
+
+.server-text {
+  color: #ffffff;
+}
+
+.Chatbox {
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 5rem;
+  margin: auto;
+  border: 1.5px solid #8a8a8a;
+  border-radius: 2rem;
+  background-color: inherit;
+}
+
+.chatbox-input,
+.chatbox-input::placeholder,
+.chatbox-input:placeholder-shown {
+  font-family: "Inter", sans-serif;
+  padding: 1.5rem;
+}
+
+.chatbox-input {
+  font-size: 1.6rem;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  caret-color: #ffffff;
+  color: #8a8a8a;
+  background-color: inherit;
+  border-radius: 1rem;
+}
+
+.chatbox-input::placeholder {
+  padding: 1rem;
+}
+
+.chatbox-input:focus {
+  outline: none;
+  color: #ffffff;
+}
+
+.chatbox-input::-webkit-outer-spin-button,
+.chatbox-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
